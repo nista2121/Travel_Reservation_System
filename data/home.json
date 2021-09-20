@@ -1,0 +1,26 @@
+[
+    {
+        "home_image": "sea-sound.jpg",
+        "description_title":"Enjoy the Summer with Us!",
+        "description": " This website template has been designed by <a href='http://www.freewebsitetemplates.com/'>Free Website Templates</a> for you, for free. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href='http://www.freewebsitetemplates.com/forums/'>Forum</a>.",
+        "blog":[ { "blog_title":"<a href='news'>2021 Best Beaches Contest Winners</a>",
+                   "blog_date":"<span>April 02, 2021</span>",
+                   "blog_description":"Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet... "
+                 },
+                 { "blog_title":"<a href='news'>2021 Best Dive Contest Winners</a>",
+                    "blog_date":"<span>June 05, 2021</span>",
+                    "blog_description":"Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet... "
+                  },
+                  { "blog_title":"<a href='news'>2020 Best Food Contest Winners</a>",
+                    "blog_date":"<span>September 09, 2020</span>",
+                    "blog_description":"Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet... "
+                  }
+                ] ,
+        "testimonials": "<p> “In hac habitasse platea dictumst. Integer purus justo, egestas eu consectetur eu, cursus in tortor. Quisque nec nunc ac mi ultrices iaculis. Aenean quis elit mauris, nec vestibulum lorem.” <span>- <a href='/index'>Juan De La Cruz</a></span> </p>",
+        "room_image":"rooms.png",
+        "dive_image":"dive-site.png",
+        "food_image":"food.png"
+
+    }
+   
+]
