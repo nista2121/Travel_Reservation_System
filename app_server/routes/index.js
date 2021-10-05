@@ -18,7 +18,7 @@ router.get('/', ctrlMain.index);
 router.get('/index', ctrlMain.index);
 
 /**GET travel page */
-router.get('/travel', ctrlTravel.travel);
+router.get('/travel', ctrlTravel.travelList);
 
 /**GET about page */
 router.get('/about', ctrlAbout.about);
