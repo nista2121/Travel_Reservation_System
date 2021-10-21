@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 //import { trips } from '../data/trips';
 import { TripDataService } from '../services/trip-data.service';
 import { Trip } from '../models/trip';
+import { AuthenticationService } from "../services/authentication.service";
 
 @Component({
   selector: 'app-trip-listing',
@@ -18,7 +19,14 @@ export class TripListingComponent implements OnInit {
 
   message: string;
 
-  constructor(private tripDataService: TripDataService, private router: Router) { }
+  constructor(
+    private tripDataService: TripDataService, 
+    private authService: AuthenticationService,
+    private router: Router) { }
+
+ public addTrip(): void {
+      this.router.navigate(['add-trip']);
+  }
 
   private getTrips(): void {
     console.log('Inside TripListComponent#getTrips');
@@ -30,11 +38,10 @@ export class TripListingComponent implements OnInit {
           this.trips = foundTrips;
         });
   }
-
-  public addTrip(): void {
-    this.router.navigate(['add-trip']);
-  }
   
+  public isLoggedIn(): boolean {
+    return this.authService.isLoggedIn();
+  }
 
   ngOnInit() {
     this.getTrips();
